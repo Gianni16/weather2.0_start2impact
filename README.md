@@ -1,6 +1,6 @@
 # Weather App ☀️🌧️
 
-A simple front-end weather application built with HTML, CSS, JavaScript, and jQuery.  
+A simple front-end weather application built with HTML, CSS, JavaScript and jQuery.  
 It fetches real-time weather data using the OpenWeatherMap API based on city name input or current geolocation. 🌍📍
 
 ## Features ✨
