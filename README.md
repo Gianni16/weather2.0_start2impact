@@ -27,7 +27,7 @@ It fetches real-time weather data using the OpenWeatherMap API based on city nam
 ## Live Preview 🚀
 
 You can view the live version of this app here:  
-🔗 [Visit the live site](https://gianni16.github.io/weather2.0_start2impact/)  
+🔗 [Visit the live site](https://gianni16.github.io/weather2.0_start2impact/) 
 
 ## API Key 🔑
 
