@@ -33,6 +33,3 @@ You can view the live version of this app here:
 
 The app uses a free API key from OpenWeatherMap embedded in the script.  
 For production or extended use, consider registering your own API key on [OpenWeatherMap](https://openweathermap.org/api).  
-
-## Folder Structure 📂
-
