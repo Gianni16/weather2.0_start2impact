@@ -24,7 +24,7 @@ if (navigator.geolocation) {
             lat: position.coords.latitude,
             lon: position.coords.longitude,
             units: 'metric',
-            appid: '2244edf353448cb7b1046edb0aec0e06'
+            appid: '87b2a25bd31a9ee8deea5583aad1e1c2'
         })
 
         .done (function (weatherData) {
@@ -71,8 +71,11 @@ if (navigator.geolocation) {
   $('.weatherWindSpeed').html('');
 
   var cityName = $('#cityName').val();
-  var apiCall = 'http://api.openweathermap.org/data/2.5/weather?q=' + cityName +
-  '&units=metric&lang=it&appid=2244edf353448cb7b1046edb0aec0e06';
+  var apiKey = '87b2a25bd31a9ee8deea5583aad1e1c2'
+
+  var apiCall = 'https://api.openweathermap.org/data/2.5/weather?q=' + cityName +
+  		'&units=metric&lang=it&appid='
+		+ apiKey;
 
   $.getJSON (apiCall, weatherCallback);
 
