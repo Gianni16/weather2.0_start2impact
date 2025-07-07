@@ -1,0 +1,1 @@
+const API_KEY = 'Insert your API KEY';
