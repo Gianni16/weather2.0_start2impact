@@ -15,7 +15,7 @@ $('#display').click(function(){
 
 function getLocation() {
 
-var geoCall = 'http://api.openweathermap.org/data/2.5/weather'
+var geoCall = 'https://api.openweathermap.org/data/2.5/weather'
 
 if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(function (position) {
